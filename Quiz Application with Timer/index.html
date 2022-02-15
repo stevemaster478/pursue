@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pursu(e) | F2T</title>
+    <link rel="icon" src="favicon.png" type="image/png"/>
+    <link rel="stylesheet" href="style.css">
+    <!--Link per icone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Avvia il pulsante Quiz. -->
+    <div class="start_btn"><button>Inizia il quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Alcune regole di questo quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Avrai solo <span> 15 secondi </span> per ogni domanda.</div>
+            <div class="info">2. Una volta selezionata la tua risposta, non può essere annullata.</div>
+            <div class="info">3. Non puoi selezionare nessuna opzione una volta finito il tempo</div>
+            <div class="info">4. Non puoi uscire dal quiz mentre stai giocando.</div>
+            <div class="info">5. Otterrai punti sulla base delle tue risposte corrette.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Esci Quiz</button>
+            <button class="restart">Continua</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">pursu(e)</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo rimasto</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Qui abbiamo inserito una domanda da JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Qui abbiamo inserito opzioni da JavaScriptt -->
+            </div>
+        </section>
+
+        <!-- footer del Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Qui abbiamo inserito il numero di conteggio delle domande da JavaScript -->
+            </div>
+            <button class="next_btn">Avanti</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Hai finito il Quiz!</div>
+        <div class="score_text">
+            <!-- Qui abbiamo inserito il risultato del punteggio da JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Ripeti il Quiz</button>
+            <button class="quit">Esci dal Quiz</button>
+        </div>
+    </div>
+
+    <!-- All'interno di questo file JavaScript abbiamo inserito domande e opzioni inserite solo -->
+    <script src="js/questions.js"></script>
+
+    <!-- All'interno di questo file JavaScript abbiamo codificato tutti i codici QUIZ -->
+    <script src="js/script.js"></script>
+    
+    <!-- All'interno di questo file JavaScript abbiamo implementato il generatore dei box per le difficoltà -->
+    <script src="js/box_generator.js"></script>
+
+</body>
+</html>

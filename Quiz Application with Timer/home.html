@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="toggle-dark-mode.css">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Homepage | pursu(e)</title>
+    <link rel="icon" src="favicon.png" type="image/png"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="home.html" class="nav-logo">
+            <img src = "logo_white-theme.png">
+        </a>
+        <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Chi siamo </a></li>
+            <li><a href="#">Contatti </a></li>
+            <li><a href="#">Categorie </a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <h1>Cos'è Pursu(e)</h1>
+            <p> Contenuto </p>
+            <button class = "btns"></button>
+        </div>
+        <div>
+            <!--<img src = "logo_white-theme.png"> -->
+        </div>
+    </main>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    <div class="mouse"></div>
+    <p class="text">Scroll</p>
+</body>
+<script src = "js/toggle-dark-mode.js">
+    document.getElementById('chk').onclick = changeColor;
+function changeColor() {
+    document.body.style.color = "#d8d8d8";
+    return false;
+}
+</script>
+</html>

@@ -1,0 +1,164 @@
+
+
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #2ebd21;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 300px;
+  
+  }
+  
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .button1 span:after {
+    content: 'facile';
+    position: inherit;
+    opacity: 0;
+    top: 0;
+    right: -100px;
+    transition: 0.2s;
+  }
+  
+  .button1:hover span {
+    padding-right: 55px;
+   
+  }
+  .button1:hover {
+      background-color: #1b8d3e
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
+  .button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #fff01b;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 300px;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .button2 span:after {
+    content: 'medio';
+    position: inherit;
+    opacity: 0;
+    top: 0;
+    right: -100px;
+    transition: 0.2s;
+  }
+  
+  .button2:hover span {
+    padding-right: 55px;
+   
+  }
+  .button2:hover {
+      background-color: #9cbe00
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
+
+  .button3 {
+    position: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ff1b1b;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 300px;
+  }
+  
+  .button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .button3 span:after {
+    content: 'difficile';
+    position: inherit;
+    opacity: 0;
+    top: 0;
+    right: -100px;
+    transition: 0.2s;
+  }
+  
+  .button3:hover span {
+    padding-right: 55px;
+   
+  }
+  .button3:hover {
+      background-color: #b30000
+  }
+  
+  .button3:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
