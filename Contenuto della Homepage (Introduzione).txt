@@ -1,0 +1,6 @@
+Pursu(e) è un progetto no-profit basato su quiz in occasione dell'alternanza scuola lavoro / PCTO.
+È stato sviluppato da un gruppo di ragazzi che ha lavorato con passione e dedizione, così da poter 
+insegnare qualcosa ad ogni categoria di persona, da neofiti dell'informatica
+a chi è esperto e vorrebbe mettersi in gioco.
+Pursu(e) racchiude ogni ambito d'informatica, dalla sicurezza alla sistemistica, dalla programmazione all'UIX
+e via scorrendo.
